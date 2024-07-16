@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Center the form vertically and horizontally */
+.login-form {
+    width: 360px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text within the form */
+}
+
+/* Style form icons */
+.login-form .form-icon {
+    margin-bottom: 20px;
+}
+.login-form .form-icon i {
+    font-size: 36px;
+    color: #007bff; /* Change icon color as needed */
+}
+
+/* Style form inputs and button */
+.login-form .form-control {
+    width: calc(100% - 20px); /* Adjust input width */
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.login-form .btn-block {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form .btn-block:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+}
+
+/* Center text and style link */
+.login-form .text-center {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.login-form .text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form .text-center a:hover {
+    text-decoration: underline;
+}
